@@ -1,0 +1,89 @@
+    *{
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+    }
+  
+    .row1content{
+      font-family: 'Robot Slab', serif;
+      font-size: 25px;
+    }
+    .row2img{
+      background-size: cover;
+      background-position: absolute;
+      background-repeat: no-repeat;
+    }
+    .row2content{
+      font-family: 'Robot Slab', serif;
+      font-size: 25px;
+      margin-top: 40px;
+    }
+    
+    .overlay{
+      background-image: linear-gradient(to top,
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)),
+      url("assets/images/pic9.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: absolute;
+    }
+     
+    nav{
+      height: 100px;
+    }
+    
+    .brandname {
+      font-size: 40px;
+      margin-left: 60px;
+    }
+    .custom_nav_link a:hover{
+      text-decoration: underline;
+      color: lightskyblue;
+    }
+    .custom_nav_link{
+      font-size: 20px;
+    }
+    .custom_navlink_div{
+      margin-left: 500px;
+    }
+    .navbar_btn{
+      text-decoration: none; 
+    }
+
+    .card-link{
+      font-size:25px;
+      color: black;
+      font-family:serif;
+      text-decoration:none;
+      font-weight:600px;
+  }
+  .card:hover{
+      background-color: #f0f0f0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      transition: 0.7s;
+  }
+  .box{
+    display: flex;
+    justify-content: space-around;
+  }
+  .card-body {
+      transition: background-color 0.7s ease-in-out, box-shadow 0.7s ease-in-out;
+  }
+
+  .image{
+    background-image: url("../assets/images/care10.jpg");
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 80px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+    
